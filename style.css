@@ -2,11 +2,15 @@
 
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    display: flex;
-    flex-direction: column;
+    text-align: center;
     margin: 0;
     padding: 0;
-    text-align: center;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 button {
@@ -111,4 +115,25 @@ a {
     gap: 52px;
 }
 
+/* 3rd part */
 
+.three {
+    display: flex;
+    flex-direction: column;
+}
+
+/* 4th part */
+
+.four {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    height: 72px;
+    background: #222b38;
+    color: #f9faf8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
