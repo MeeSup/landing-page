@@ -14,7 +14,7 @@ body {
 }
 
 button {
-    border-radius: 10px; /* Adjust the value to control the amount of curvature */
+    border-radius: 10px;
     background-color: #3882f6;
     color: #f9faf8;
     padding: 10px 30px;
@@ -23,12 +23,6 @@ button {
     font-size: 16px;
 }
 
-img, svg {
-    max-width: 200px;
-    width: 100px;
-    height: 100px;
-    display: block;
-}
 
 /* 1st part */
 
@@ -45,11 +39,22 @@ img, svg {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 32px 0;
 }
 
-.header.logo{
-    color: aliceblue;
-    font-size: 24px;
+.logo img{
+    max-width: 100px;
+    width: 60px;
+    height: 60px;
+    display: block;
+    border-radius: 10px;
+}
+
+li img {
+    max-width: 100px;
+    width: 40px;
+    height: 40px;
+    display: block;
 }
 
 
@@ -88,13 +93,13 @@ a {
     color: #f9faf8;
 }
 
-.image-container {
+.main-image {
     width: 200px;
     height: 200px;
     display: block;
 }
 
-.image-container img {
+.main-image img {
     width: 100%;
     height: auto;
   }
@@ -113,6 +118,13 @@ a {
     display: flex;
     justify-content: center;
     gap: 52px;
+}
+
+.info > img {
+    max-width: 200px;
+    width: 200px;
+    height: 200px;
+    display: block;
 }
 
 /* 3rd part */
