@@ -5,6 +5,7 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
+    
 }
 
 .content{
@@ -15,8 +16,8 @@ body {
 
 button {
     border-radius: 10px;
-    background-color: #3882f6;
-    color: #f9faf8;
+    background-color: #e8d7c4;
+    color: #5c4b44;
     padding: 10px 30px;
     border: none;
     cursor: pointer;
@@ -29,9 +30,10 @@ button {
 .one {
     display: flex;
     flex-direction: column;
-    background-color: #222b38;
+    background-color: #5c4b44;
     flex-grow: 1;
     padding: 0 200px;
+    flex-wrap: nowrap;
 }
 
 
@@ -80,6 +82,8 @@ a {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    text-align: left;
+    gap: 16px;
 }
 
 .main-text{
@@ -92,17 +96,17 @@ a {
     font-size: 18px;
     color: #f9faf8;
 }
-
 .main-image {
-    width: 200px;
-    height: 200px;
+    max-width: 360px;
     display: block;
 }
 
 .main-image img {
     width: 100%;
     height: auto;
+    border-radius: 10%;
   }
+
 
 /* 2nd part */
 
@@ -111,7 +115,14 @@ a {
     flex-direction: column;
     background-color: white;
     flex-grow: 1;
-    padding: 0 200px;
+    padding: 32px 200px;
+    gap: 16px;
+}
+
+.two-title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #5c4b44;
 }
 
 .container {
@@ -121,10 +132,18 @@ a {
 }
 
 .info > img {
+    border-radius: 10px;
+    border: 5px solid #f8d0a1;
+    overflow: hidden;
     max-width: 200px;
-    width: 200px;
+    width: 300px;
     height: 200px;
     display: block;
+}
+
+.text {
+    font-size: 18px;
+    color: #1f2937;
 }
 
 /* 3rd part */
@@ -132,6 +151,10 @@ a {
 .three {
     display: flex;
     flex-direction: column;
+    background-color: #bcb3a4;
+    flex-grow: 1;
+    padding: 0 200px;
+    flex-wrap: nowrap;
 }
 
 /* 4th part */
@@ -143,7 +166,7 @@ a {
 
 .footer {
     height: 72px;
-    background: #222b38;
+    background: #5c4b44;
     color: #f9faf8;
     display: flex;
     align-items: center;
