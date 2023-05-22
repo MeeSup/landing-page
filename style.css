@@ -1,7 +1,7 @@
 /* main part */
 
 body {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Roboto, sans-serif;
     text-align: center;
     margin: 0;
     padding: 0;
@@ -87,6 +87,7 @@ a {
 }
 
 .main-text{
+    font-family: Lobster;
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
@@ -121,7 +122,8 @@ a {
     padding: 32px 200px;
 }
 
-.two-title {
+.two-main-text {
+    font-family: Lobster;
     font-size: 48px;
     font-weight: bolder;
     color: #5c4b44;
@@ -135,8 +137,8 @@ a {
 }
 
 .info > img {
-    border-radius: 10px;
-    border: 5px solid #f8d0a1;
+    border-radius: 20%;
+    border: 8px solid #f8d0a1;
     overflow: hidden;
     max-width: 200px;
     width: 300px;
@@ -179,7 +181,53 @@ a {
 .four {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 200px;
+    flex-grow: 1;
 }
+
+.card {
+    background: #f9faf8;
+    width: 480px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+    display: flex;
+    margin: 32px;
+    padding: 32px;
+    gap: 16px;
+    justify-content: space-around;
+    max-width: 600px;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.card-main-text {
+    font-size: 24px;
+    font-weight: 800;
+    text-align: left;
+}
+
+.card-secondary-text {
+    font-size: 16px;
+    text-align: left;
+}
+
+button.card-button {
+    background-color: #e8d7c4;
+    border-radius: 10px;
+    border: 3px solid #5c4b44;
+    color: #5c4b44;
+    padding: 5px 40px;
+    margin: 0 10px;
+}
+
+/* footer */
+
 
 .footer {
     height: 72px;
@@ -188,4 +236,4 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+}
