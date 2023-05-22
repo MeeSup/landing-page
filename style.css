@@ -146,6 +146,7 @@ a {
     display: flex;
     justify-content: center;
     gap: 52px;
+    flex-wrap: wrap;
 }
 
 .info > img {
@@ -182,7 +183,7 @@ a {
     display: flex;
     justify-content: space-between;
     flex-grow: 1;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     gap: 24px;
 }
 
