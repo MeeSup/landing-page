@@ -27,27 +27,35 @@ button {
 
 /* 1st part */
 
-.one {
-    display: flex;
-    flex-direction: column;
+.background-one {
     background-color: #5c4b44;
-    flex-grow: 1;
-    padding: 64px 200px;
-    flex-wrap: nowrap;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 64px;
 }
 
+.layout-one {
+    padding: 0% 25%;
+    padding-top: 0;
+    justify-content: center;
+    align-items: center;
+}
 
 .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 32px 0;
+    flex-grow: 0;
+    gap: 70%;
 }
+
 
 .logo img{
     max-width: 100px;
     width: 60px;
     height: 60px;
+    display: flex;
     display: block;
     border-radius: 10px;
 }
@@ -73,9 +81,8 @@ a {
 
 .hero{
     display: flex;
-    justify-content: center;
-    gap: 100px;
-    margin: 32px 0;
+    justify-content: space-between;
+    gap: 200px;
 }
 
 .hero-text {
@@ -114,10 +121,14 @@ a {
 
 /* 2nd part */
 
-.two {
+.background-two {
+    background-color: #f9faf8;
+}
+
+.layout-two {
+    padding: 0% 25%;
     display: flex;
     flex-direction: column;
-    background-color: white;
     flex-grow: 1;
     padding: 64px 200px;
 }
@@ -160,25 +171,37 @@ a {
 
 /* 3rd part */
 
-.three {
+.background-three {
+    background-color: #bcb3a4;
+    padding: 64px;
+}
+
+.layout-three {
+    padding: 0% 15%;
+    padding: 0% 15%;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-grow: 1;
     flex-wrap: nowrap;
     background-color: #bcb3a4;
-    padding: 64px 200px;
-    gap: 32px;
+
 }
+
 
 .three > p {
     font-style: italic;
     font-size: large;
-    max-width: 250px;
+    max-width: 200px;
 }
 
 /* 4th part */
 
-.four {
+.background-four {
+    background-color: #f9faf8;
+}
+
+.layout-four {
+    padding: 0% 15%;
     display: flex;
     flex-direction: column;
     justify-content: center;
